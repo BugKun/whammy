@@ -1,0 +1,19 @@
+{
+  "name": "node-whammy",
+  "version": "0.0.1",
+  "description": "webm encoder",
+  "main": "whammy.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jbouny/whammy.git"
+  },
+  "author": {
+    "name": "jbouny"
+  },
+  "license": "BSD-2-Clause",
+  "bugs": {
+    "url": "https://github.com/jbouny/whammy/issues"
+  },
+  "homepage": "https://github.com/jbouny/whammy",
+  "_id": "node-whammy@0.0.1"
+}
