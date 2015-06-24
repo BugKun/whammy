@@ -4,7 +4,9 @@
 	vid.compile()
 */
 
-window.Whammy = (function(){
+var atob = require('atob');
+
+global.Whammy = (function(){
 	// in this case, frames has a very specific meaning, which will be
 	// detailed once i finish writing the code
 
@@ -534,3 +536,5 @@ window.Whammy = (function(){
 		// expose methods of madness
 	}
 })()
+
+if (typeof process !== 'undefined') module.exports = Whammy;
